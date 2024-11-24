@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": "1005",
+      "name": "Arpith Kumar",
+      "email": "arpithk3@gmail.com",
+      "role": "Admin",
+      "status": true,
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    },
+    {
+      "id": "d91a",
+      "name": "Tripthi A Dubey",
+      "email": "tripthik3@gmail.com",
+      "role": "CEO",
+      "status": true,
+      "permissions": [
+        "Read",
+        "Delete"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    }
+  ]
+}
